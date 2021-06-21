@@ -205,23 +205,106 @@
       "ids": {},
       "registry_name": "wooden_armor_boots_recipe",
       "path": "~/materials/wood"
+    },
+    {
+      "name": "Woodchip",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodchip",
+      "path": "~/materials/wood"
+    },
+    {
+      "name": "Slimebucket",
+      "type": "fluid",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimebucket",
+      "path": "~/materials/slime"
+    },
+    {
+      "name": "SlimeArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/materials/slime"
+    },
+    {
+      "name": "SlimeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_helmet_recipe",
+      "path": "~/materials/slime"
+    },
+    {
+      "name": "SlimeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_body_recipe",
+      "path": "~/materials/slime"
+    },
+    {
+      "name": "SlimeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_leggings_recipe",
+      "path": "~/materials/slime"
+    },
+    {
+      "name": "SlimeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_boots_recipe",
+      "path": "~/materials/slime"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.vanilla_expanded.leather_pickaxe": "Leather Pickaxe",
       "item.vanilla_expanded.wooden_armor_chestplate": "Wooden Chestplate",
+      "fluid.slimebucket": "Slimebucket",
+      "item.vanilla_expanded.slime_armor_leggings": "Slime Leggings",
+      "item.vanilla_expanded.slime_armor_helmet": "Slime Helmet",
       "item.vanilla_expanded.leather_shovel": "Leather Shovel",
       "item.vanilla_expanded.leatherparticle": "Leather particle",
-      "item.vanilla_expanded.leather_axe": "Leather Axe",
       "item.vanilla_expanded.leather_hoe": "Leather Hoe",
-      "item.vanilla_expanded.wooden_armor_helmet": "Wooden Helmet",
       "item.vanilla_expanded.leather_sword": "Leather Sword",
       "item.vanilla_expanded.wooden_armor_boots": "Wooden Boots",
-      "item.vanilla_expanded.wooden_armor_leggings": "Wooden Leggings",
-      "itemGroup.tabvanillaexpanded": "Vanilla expanded"
+      "itemGroup.tabvanillaexpanded": "Vanilla expanded",
+      "item.vanilla_expanded.slimebucket_bucket": "Slimebucket Bucket",
+      "item.vanilla_expanded.woodchip": "Wood chip",
+      "item.vanilla_expanded.leather_pickaxe": "Leather Pickaxe",
+      "item.vanilla_expanded.slime_armor_boots": "Slime Boots",
+      "item.vanilla_expanded.leather_axe": "Leather Axe",
+      "item.vanilla_expanded.wooden_armor_helmet": "Wooden Helmet",
+      "item.vanilla_expanded.slime_armor_chestplate": "Slime Chestplate",
+      "item.vanilla_expanded.wooden_armor_leggings": "Wooden Leggings"
     }
   },
   "foldersRoot": {
@@ -240,6 +323,10 @@
           },
           {
             "name": "wood",
+            "children": []
+          },
+          {
+            "name": "slime",
             "children": []
           }
         ]

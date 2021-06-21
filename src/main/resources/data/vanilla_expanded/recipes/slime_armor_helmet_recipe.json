@@ -1,0 +1,29 @@
+{
+  "group": "vanilla_expanded",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_block"
+    },
+    "1": {
+      "item": "minecraft:slime_block"
+    },
+    "2": {
+      "item": "minecraft:slime_block"
+    },
+    "3": {
+      "item": "minecraft:slime_block"
+    },
+    "5": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "vanilla_expanded:slime_armor_helmet",
+    "count": 1
+  }
+}
