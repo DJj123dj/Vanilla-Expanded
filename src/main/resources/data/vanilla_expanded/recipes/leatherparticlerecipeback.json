@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_expanded",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "1": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "2": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "3": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "4": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "5": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "6": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "7": {
+      "item": "vanilla_expanded:leatherparticle"
+    },
+    "8": {
+      "item": "vanilla_expanded:leatherparticle"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  }
+}

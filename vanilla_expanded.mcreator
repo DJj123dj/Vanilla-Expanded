@@ -1,0 +1,267 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Vanillaexpanded",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanillaexpanded"
+    },
+    {
+      "name": "WoodenPlanks",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_planks",
+      "path": "~/tags"
+    },
+    {
+      "name": "Leatherparticle",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leatherparticle",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "Leatherparticlerecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leatherparticlerecipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "Leatherparticlerecipeback",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leatherparticlerecipeback",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_pickaxe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_axe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_sword",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_shovel",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_hoe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_pickaxe_recipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherAxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_axe_recipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_sword_recipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherShovelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_shovel_recipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "LeatherHoeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_hoe_recipe",
+      "path": "~/materials/leather"
+    },
+    {
+      "name": "WoodenArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/materials/wood"
+    },
+    {
+      "name": "WoodenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_helmet_recipe",
+      "path": "~/materials/wood"
+    },
+    {
+      "name": "WoodenArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_body_recipe",
+      "path": "~/materials/wood"
+    },
+    {
+      "name": "WoodenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_leggings_recipe",
+      "path": "~/materials/wood"
+    },
+    {
+      "name": "WoodenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_boots_recipe",
+      "path": "~/materials/wood"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.vanilla_expanded.leather_pickaxe": "Leather Pickaxe",
+      "item.vanilla_expanded.wooden_armor_chestplate": "Wooden Chestplate",
+      "item.vanilla_expanded.leather_shovel": "Leather Shovel",
+      "item.vanilla_expanded.leatherparticle": "Leather particle",
+      "item.vanilla_expanded.leather_axe": "Leather Axe",
+      "item.vanilla_expanded.leather_hoe": "Leather Hoe",
+      "item.vanilla_expanded.wooden_armor_helmet": "Wooden Helmet",
+      "item.vanilla_expanded.leather_sword": "Leather Sword",
+      "item.vanilla_expanded.wooden_armor_boots": "Wooden Boots",
+      "item.vanilla_expanded.wooden_armor_leggings": "Wooden Leggings",
+      "itemGroup.tabvanillaexpanded": "Vanilla expanded"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "tags",
+        "children": []
+      },
+      {
+        "name": "materials",
+        "children": [
+          {
+            "name": "leather",
+            "children": []
+          },
+          {
+            "name": "wood",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "vanilla_expanded",
+    "modName": "Vanilla expanded",
+    "version": "1.0.0",
+    "author": "jasperdelbroek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.vanillaexpanded",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

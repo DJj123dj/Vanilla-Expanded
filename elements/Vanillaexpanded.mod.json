@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Vanilla expanded",
+    "icon": {
+      "value": "Items.SKULL#3"
+    },
+    "showSearch": false
+  }
+}
