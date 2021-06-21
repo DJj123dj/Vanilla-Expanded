@@ -416,6 +416,15 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "colored_light",
+        "children": [
+          {
+            "name": "torches",
+            "children": []
+          }
+        ]
       }
     ]
   },
