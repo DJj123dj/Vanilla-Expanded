@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Blocks.HONEY_BLOCK"
+      },
+      {
+        "value": "Blocks.HONEY_BLOCK"
+      },
+      {
+        "value": "Blocks.HONEY_BLOCK"
+      },
+      {
+        "value": "Blocks.HONEY_BLOCK"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Blocks.HONEY_BLOCK"
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Blocks.HONEY_BLOCK"
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": ""
       },
       {
-        "value": "Items.SLIME_BALL"
-      },
-      {
-        "value": "Items.SLIME_BALL"
-      },
-      {
-        "value": "Items.SLIME_BALL"
-      },
-      {
-        "value": "Items.SLIME_BALL"
+        "value": "Blocks.HONEY_BLOCK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SlimeArmor.body"
+      "value": "CUSTOM:HoneyArmor.legs"
     },
-    "name": "slime_armor_body_recipe",
+    "name": "honey_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

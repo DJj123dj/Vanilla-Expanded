@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "vanilla_expanded:slimebucket",
-    "vanilla_expanded:slimebucket_flowing"
+    "vanilla_expanded:slimebucket_flowing",
+    "vanilla_expanded:honeybucket",
+    "vanilla_expanded:honeybucket_flowing"
   ]
 }

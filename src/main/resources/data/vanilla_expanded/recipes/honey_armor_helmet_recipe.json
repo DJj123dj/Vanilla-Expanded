@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:honey_block"
     },
     "1": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:honey_block"
     },
     "2": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:honey_block"
     },
     "3": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:honey_block"
     },
     "5": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:honey_block"
     }
   },
   "result": {
-    "item": "vanilla_expanded:slime_armor_helmet",
+    "item": "vanilla_expanded:honey_armor_helmet",
     "count": 1
   }
 }

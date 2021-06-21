@@ -8,28 +8,28 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "2": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "3": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "4": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "5": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "6": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "7": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     },
     "8": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

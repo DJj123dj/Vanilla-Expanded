@@ -1,0 +1,26 @@
+{
+  "group": "vanilla_expanded",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_block"
+    },
+    "2": {
+      "item": "minecraft:honey_block"
+    },
+    "3": {
+      "item": "minecraft:honey_block"
+    },
+    "5": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "item": "vanilla_expanded:honey_armor_boots",
+    "count": 1
+  }
+}

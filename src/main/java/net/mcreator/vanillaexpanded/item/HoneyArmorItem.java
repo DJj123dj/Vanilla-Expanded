@@ -8,29 +8,29 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.vanillaexpanded.itemgroup.VanillaexpandedItemGroup;
 import net.mcreator.vanillaexpanded.VanillaExpandedModElements;
 
 @VanillaExpandedModElements.ModElement.Tag
-public class SlimeArmorItem extends VanillaExpandedModElements.ModElement {
-	@ObjectHolder("vanilla_expanded:slime_armor_helmet")
+public class HoneyArmorItem extends VanillaExpandedModElements.ModElement {
+	@ObjectHolder("vanilla_expanded:honey_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("vanilla_expanded:slime_armor_chestplate")
+	@ObjectHolder("vanilla_expanded:honey_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("vanilla_expanded:slime_armor_leggings")
+	@ObjectHolder("vanilla_expanded:honey_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("vanilla_expanded:slime_armor_boots")
+	@ObjectHolder("vanilla_expanded:honey_armor_boots")
 	public static final Item boots = null;
-	public SlimeArmorItem(VanillaExpandedModElements instance) {
-		super(instance, 23);
+	public HoneyArmorItem(VanillaExpandedModElements instance) {
+		super(instance, 29);
 	}
 
 	@Override
@@ -38,17 +38,17 @@ public class SlimeArmorItem extends VanillaExpandedModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 8;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{1, 3, 3, 1}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 5;
 			}
 
 			@Override
@@ -58,13 +58,13 @@ public class SlimeArmorItem extends VanillaExpandedModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Items.SLIME_BALL, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Blocks.HONEY_BLOCK, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "slime_armor";
+				return "honey_armor";
 			}
 
 			@Override
@@ -80,26 +80,26 @@ public class SlimeArmorItem extends VanillaExpandedModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(VanillaexpandedItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "vanilla_expanded:textures/models/armor/slime_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "vanilla_expanded:textures/models/armor/honey_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("slime_armor_helmet"));
+		}.setRegistryName("honey_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(VanillaexpandedItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "vanilla_expanded:textures/models/armor/slime_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "vanilla_expanded:textures/models/armor/honey_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("slime_armor_chestplate"));
+		}.setRegistryName("honey_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(VanillaexpandedItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "vanilla_expanded:textures/models/armor/slime_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "vanilla_expanded:textures/models/armor/honey_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("slime_armor_leggings"));
+		}.setRegistryName("honey_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(VanillaexpandedItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "vanilla_expanded:textures/models/armor/slime_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "vanilla_expanded:textures/models/armor/honey_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("slime_armor_boots"));
+		}.setRegistryName("honey_armor_boots"));
 	}
 }

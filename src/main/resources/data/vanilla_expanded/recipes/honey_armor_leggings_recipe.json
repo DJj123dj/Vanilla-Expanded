@@ -1,0 +1,36 @@
+{
+  "group": "vanilla_expanded",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_block"
+    },
+    "1": {
+      "item": "minecraft:honey_block"
+    },
+    "2": {
+      "item": "minecraft:honey_block"
+    },
+    "3": {
+      "item": "minecraft:honey_block"
+    },
+    "5": {
+      "item": "minecraft:honey_block"
+    },
+    "6": {
+      "item": "minecraft:honey_block"
+    },
+    "8": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "item": "vanilla_expanded:honey_armor_leggings",
+    "count": 1
+  }
+}

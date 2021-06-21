@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.SLIME_BALL"
       },
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.SLIME_BALL"
       },
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.SLIME_BALL"
       },
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.SLIME_BALL"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.SLIME_BALL"
       },
       {
         "value": ""

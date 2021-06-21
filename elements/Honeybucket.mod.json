@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "Honeybucket",
+    "textureStill": "honey_bucket",
+    "textureFlowing": "honey_bucket",
+    "luminosity": 0,
+    "density": 2000,
+    "viscosity": 5000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Vanillaexpanded"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}
