@@ -4,7 +4,7 @@
   "definition": {
     "name": "Honeybucket",
     "textureStill": "honey_bucket",
-    "textureFlowing": "honey_bucket",
+    "textureFlowing": "honey_flowing",
     "luminosity": 0,
     "density": 2000,
     "viscosity": 5000,

@@ -56,7 +56,7 @@ public class HoneybucketBlock extends VanillaExpandedModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing, FluidAttributes
-				.builder(new ResourceLocation("vanilla_expanded:blocks/honey_bucket"), new ResourceLocation("vanilla_expanded:blocks/honey_bucket"))
+				.builder(new ResourceLocation("vanilla_expanded:blocks/honey_bucket"), new ResourceLocation("vanilla_expanded:blocks/honey_flowing"))
 				.luminosity(0).density(2000).viscosity(5000)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("honeybucket");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("honeybucket_flowing");
